@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Header Section -->
+        <div id="header">
+            <div class="container">
+                <img src="images/logo.png" alt="logo" class="logo">
+                <div class="header-text">
+                    <h3>Lorem ipsum dolor <br>sit amet consectetur adipisicing elit.</h3>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Nobis est officiis nisi amet voluptatem sapiente labore, praesentium doloremque fugiat autem,
+                         inventore quae iusto neque unde error ullam id. Enim, iste.</p>
+                    <button class="common-button">Read More</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         <!-- Header Section -->
+        <nav id="sideNav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">COURSES</a></li>
+                <li><a href="#">OFFERS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- About Section -->
+        <div id="about">
+            <div class="about-left-col">
+                <img src="images/about.png" alt="">
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h2>About Us </h2>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ratione quasi atque repellendus nam! Aspernatur veritatis corporis 
+                        maiores molestiae porro quidem molestias nostrum soluta, facere, commodi modi iste,
+                         ab dolor! Iure porro sint praesentium id vel exercitationem, eius dignissimos ex! 
+                         Consectetur earum est voluptas veritatis non, fuga, 
+                         minima beatae suscipit inventore corporis dolores.
+                          Natus, ad dolores deleniti, 
+                     </p>
+                     <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h3>
+                    <p>---Abigail Adam</p>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Section -->
+        <div id="feature">
+            <div class="feature-row">
+                <div class="feature-col">
+                    <img src="images/pic-1.png" alt="">
+                    <h4>Learn Anywhere</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati consequatur dolore aliquid corrupti</p>
+                </div>
+                <div class="feature-col">
+                    <img src="images/pic-2.png" alt="">
+                    <h4>Learn Anywhere</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati consequatur dolore aliquid corrupti</p>
+                </div>
+                <div class="feature-col">
+                    <img src="images/pic-3.png" alt="">
+                    <h4>Learn Anywhere</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati consequatur dolore aliquid corrupti</p>
+                </div>
+            </div>
+            <div class="feature-button">
+                
+                <button class="common-button">Start Free Trial</button>
+            </div>
+        </div>
+        <img src="images/menu.png" alt="" id="menuBtn">
+        <script >
+            var menuBtn=document.getElementById("menuBtn");
+            var sideNav=document.getElementById("sideNav");
+            sideNav.style.right="-250px";
+            menuBtn.onclick=function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0px";
+                }else{
+                    sideNav.style.right="-250px";
+                }
+            }
+        </script>
+    </body>
+</html>

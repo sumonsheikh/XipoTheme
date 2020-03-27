@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin-right: 100px;
+    margin-left:100px;
+}
+.logo{
+    width:100px;
+   margin-top:30px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top:140px;
+}
+h3{
+    font-size:34px;
+}
+.square{
+    width: 12px;
+    height: 12px;
+    background-color: #F67C92;
+    display: inline-block;
+    margin:15px 0;
+}
+.common-button{
+    padding:18px 40px;
+    background:transparent;
+    outline: none;
+    border:2px solid #F67C92;
+    font-weight: 700;
+    cursor: pointer;
+}
+p{
+    font-size:15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button{
+    margin-top:20px;
+    margin-bottom:60px;
+}
+.line{
+    line-height: 15px;
+}
+.line-1{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-color: #F67C92;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background-color: #F67C92;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    display: inline-block;
+    background-color: #F67C92;
+}
+#sideNav{
+    width:200px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right: -250px;
+    background-color: #F67C92;
+    transition: 0.5s;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    margin:50px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+img#menuBtn {
+    position: fixed;
+    top: 45px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* About CSS */
+#about{
+    padding:100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width:100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin:10px 0 20px;
+    font-style: italic;
+    font-size: 28px;
+}
+.about-text p{
+    margin-bottom: 20px;
+}
+
+.about-text h3{
+    margin-top:20px;
+    font-style: italic;
+    font-size: 20px;
+}
+/* Feature */
+#feature{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.feature-row{
+    width:80%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.feature-col{
+    flex-basis: 25%;
+}
+.feature-col img{
+    width:100px;
+}
+.feature-col h4{
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.feature-button{
+    margin:80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
